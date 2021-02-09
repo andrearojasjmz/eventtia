@@ -3,8 +3,6 @@ document.body.appendChild(document.createElement('script')).src = 'https://www.g
 
 document.write('<script>var firebaseConfig = {apiKey: "AIzaSyB0fMPfWdlaJLnSwbXlOwbfwvYom4-hpVE",authDomain: "eventtia-live-ecommerce.firebaseapp.com",projectId: "eventtia-live-ecommerce",storageBucket: "eventtia-live-ecommerce.appspot.com",messagingSenderId: "935859228641",appId: "1:935859228641:web:5149695d36358c49e44ca0",measurementId: "G-QW460LS9BK"};firebase.initializeApp(firebaseConfig);firebase.analytics();</script>');
 
-document.body.appendChild(document.createElement('script')).src = '/__/firebase/init.jss';
-
 var div = document.createElement("div");
 
 var params = document.getElementById("eventtia-library").src;
